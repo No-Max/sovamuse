@@ -1,0 +1,974 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Sova</title>
+
+    <!-- css files -->   
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link href="css/jquery.fullPage.css" rel="stylesheet"> 
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css">
+    <link href="css/main.css" rel="stylesheet">
+
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header-top clearfix">
+                <div class="container">
+                    <img class="logo" src="img/logo.png">
+                    <a class="l-right toggle-menu visible-xs pull-right">
+                        <i></i>
+                        <i></i>
+                        <i></i>
+                    </a>
+                </div>
+            </div>
+            <nav>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-7 scroll">
+                            <ul id="menu">
+                                <li data-menuanchor="sec1">
+                                    <a href="#sec1">главная</a>
+                                </li>
+                                <li data-menuanchor="sec2">
+                                    <a href="#sec2">компания</a>
+                                </li>
+                                <li data-menuanchor="sec4">
+                                    <a href="#sec4">о нас</a>
+                                </li>
+                                <li data-menuanchor="sec10">
+                                    <a href="#sec10">портфолио</a>
+                                </li>
+                                <li data-menuanchor="sec12">
+                                    <a href="#sec12">контакты</a>
+                                </li>
+                            </ul> 
+                        </div>
+                        <div class="col-sm-3">
+                            <a href="tel:+375 25 939 77 62"><div class="phone-top">+375 25 939 77 62</div><a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xs-6">
+                        <div class="lang text-left hidden">
+                            <a href="#">
+                                Eng
+                            </a>
+                            <a class="active" href="#">
+                                Rus
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-xs-6">
+                        <div class="down-info hidden-md hidden-xs hidden-sm">
+                            <table>
+                                <tr>
+                                    <td>
+                                        <div class="line"></div>
+                                    </td>
+                                    <td>scroll down</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <div class="social text-right hidden">
+                            <a href="#">
+                                <i class="fa fa-vk" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-facebook" aria-hidden="true"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fa fa-instagram" aria-hidden="true"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div id="fullpage">
+            <section id="sec1" class="vertical-scrolling home adapt-bg">
+                <div class="container">                                 
+                    <div class="row">   
+                        <div class="col-sm-5">  
+                            <div class="text-right">
+                                <div id="resol">
+                                    <div class="title" data-target-resolver></div> 
+                                </div> 
+                            </div>
+                        </div>
+                        <div class="col-sm-7">  
+                            <div class="line-container">    
+                                <div class="line"></div>
+                                <div class="description">   
+                                    Комплексно. Качественно. Эффективно. 
+                                    <br>Мощная маркетинговая упаковка для высоких продаж нового уровня
+                                </div>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </section>
+
+            <section id="sec2" class="vertical-scrolling adapt-bg sova">
+                <div class="container">
+                    <div class="description">
+                        Брендинговое агентство
+                    </div>
+                    <div class="title">
+                        <span class="left">Sova</span> <span class="right">Muse</span>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <div class="line-container">    
+                                <div class="line"></div>
+                                <div class="text">Делаем сайты, вызывающие зависимость
+                                </div>
+                            </div>  
+                            <div class="small-text">
+                                Привыкание покупателей с первого посещения.
+                                Маркетинговые стратегии, срывающие волну продаж.
+                            </div>
+                        </div>
+                        <div class="col-sm-6">
+                            <div class="button-container scroll">  
+                                <a class="button" href="#sec12">Напишите нам</a>
+                            </div>
+                        </div>
+                    </div>        
+                </div>
+            </section>
+
+            
+            <section id="sec3" class="vertical-scrolling advant sales adapt-bg">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-2 hidden-sm">
+                            <div class="line-left"></div>
+                        </div>
+                        <div class="col-md-10">
+                            <div class="title title-line text-left">
+                                Быстрый старт ваших продаж
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <div class="info-container">
+                                <div class="advant-item">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <img src="img/icons/page.png">
+                                            </td>
+                                            <td>
+                                                <div class="description">
+                                                    <span class="bolder">Создадим<br> продающий сайт</span>    
+                                                    который приведет
+                                                    клиентов уже в первый
+                                                    месяц работы
+                                                </div>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </div>
+                                <div class="advant-item">
+                                    <table>
+                                        <tr>
+                                            <td>
+                                                <img src="img/icons/calc.png">
+                                            </td>
+                                            <td>
+                                                <div class="description">
+                                                    <span class="bolder">Посчитаем <br>количество клиентов</span>
+                                                    еще до начала совместной работы и пропишем все гарантии
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="advant-item">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <img src="img/icons/rup.png">
+                                                </td>
+                                                <td>
+                                                    <div class="description">
+                                                        <span class="bolder">Маркетинговое <br>предложение</span> 
+                                                        которое убедит клиентов
+                                                        купить именно в вашей
+                                                        компании 
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="advant-item">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <img src="img/icons/time.png">
+                                                </td>
+                                                <td>
+                                                    <div class="description">
+                                                        <span class="bolder">Полная <br>окупаемость сайта</span>
+                                                        примерно за 20 дней со дня запуска
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+
+                    <section id="sec4" class="vertical-scrolling bussines-2 adapt-bg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-2 hidden-sm">
+                                    <div class="line-left"></div>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="title title-line text-left">
+                                        Бизнес с командой SovaMuse
+                                    </div>
+                                    <div class="info-container">
+                                        <div class="item-container">
+                                            <div class="buss-item">
+                                                <table>
+                                                    <tr>
+                                                        <td><img src="img/icons/check.png"></td>
+                                                        <td>Понимание бизнеса</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="buss-item">
+                                                <table>
+                                                    <tr>
+                                                        <td><img src="img/icons/check.png"></td>
+                                                        <td>Квалифицированная команда</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="buss-item">
+                                                <table>
+                                                    <tr>
+                                                        <td><img src="img/icons/check.png"></td>
+                                                        <td>Полная поддержка</td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
+
+                                        <div class="description">
+                                            Мы успешно ведем множество собственных оффлайн проектов
+                                        </div>
+                                        <div class="image-block">
+                                            <div class="image-item">
+                                                <img src="img/icons/barber.png">
+                                                <div>Барбершоп</div>
+                                            </div>
+                                            <div class="image-item">
+                                                <img src="img/icons/massage.png">
+                                                <div>Массажная комната</div>
+                                            </div>
+                                            <div class="image-item">
+                                                <img src="img/icons/iphone.png">
+                                                <div>Мастерская Apple</div>
+                                            </div>
+                                            <div class="image-item">
+                                                <img src="img/icons/photo.png">
+                                                <div>Фотостудия</div>
+                                            </div>
+                                            <div class="image-item">
+                                                <img src="img/icons/cosm.png">
+                                                <div>Косметология</div>
+                                            </div>
+                                        </div>
+                                        <div class="description">
+                                            Все новые маркетинговые инструменты пробуем и тестируем на них.<br>
+                                            И выдаем вам готовые и лучшие схемы/решения ведения бизнеса и привлечения клиентов.
+                                        </div>
+                                    </div>  
+
+                                </div>                      
+                            </div>
+                        </div>
+                    </section>
+                    <!--
+                    <section class="vertical-scrolling about adapt-bg">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-md-2 hidden-sm">
+                                    <div class="line-left"></div>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="title title-line text-left">
+                                        О нас
+                                    </div>
+                                    <div class="info-container">
+                                        Корпоративный сайт давно перестал быть делом вкуса и стал необходимостью. 
+                                        Компания со своим сайтом вызывает больше доверия, выглядит надёжно и представительно. Компания без своего сайта – это нонсенс.<br>
+                                        Агентство Sova Muse занимается созданием продающих сайтов с 2013 года. Среди наших клиентов барбершопы, мастерские, музыкальные школы, интернет-магазины и многое другое. Мы знаем, насколько важны мельчайшие детали вашего бизнеса и потому учитываем все требования и пожелания. Мы верим во взаимовыгодное сотрудничество и работаем на результат, который устроит обе стороны. Мы строим сайты с нуля и совершенствуем уже существующие.<br>
+                                        Вам нужен сайт? Обращайтесь в Sova Muse.
+                                    </div>
+                                    <div class="button-container text-left">
+                                        <a class="button" href="#sec10">Напишите нам</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                -->
+                <section  id="sec5" class="vertical-scrolling whay-us adapt-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 hidden-sm">
+                                <div class="line-left"></div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="title title-line text-left">
+                                    Почему хотят работать <br>именно с нами?
+                                </div>
+                                <div class="info-container">
+                                    <div class="description">
+                                        - Мы не работаем по шаблонам. Каждый проект индивидуален.
+                                        Внимание к вашим целям, задачам и идеям — главный принцип SovaMuse.
+                                    </div>
+                                    <div class="description">
+                                        - Создание сайта начинается с анализа вашего бизнеса. Структура страницы
+                                        чётко затачивается именно под особенности ваших товаров или услуг.
+                                    </div>
+                                    <div class="description">
+                                        - Дизайнерские решения уникальны. Под дизайном мы понимаем не только
+                                        внешние «красивости», а в первую очередь, грамотную организацию
+                                        пространства с учетом самых современных тенденций.
+                                    </div>
+                                    <div class="description">
+                                        - Вашим покупателям будет легко и приятно работать с лэндингом, потому
+                                        что над тестированием итераций работают опытные юзабилити-специалисты.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section  id="sec6" class="vertical-scrolling sites adapt-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 hidden-sm">
+                                <div class="line-left"></div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="title title-line text-left">
+                                    Как создаются сайты
+                                </div>
+                                <div class="info-container">
+                                    <ul class="nav nav-tabs">
+                                        <li class="active">
+                                            <a data-toggle="tab" href="#p1">
+                                                <div class="line"></div>
+                                                <div class="number">1</div>
+                                                <div class="text">
+                                                    <div class="middle">
+                                                        <span class="bolder">Тщательно изучим</span> и проанализируем ваших конкурентов от А до Я и сделаем всё необходимое, чтобы опередить их
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>                                            
+                                        <li>
+                                            <a data-toggle="tab" href="#p2">
+                                                <div class="line"></div>
+                                                <div class="number">2</div>
+                                                <div class="text">
+                                                    <div class="middle">
+                                                        <span class="bolder">Убедительно напишем</span> продающие тексты и письма, которые располагают клиентов покупать именно у Вас.
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="tab" href="#p3">
+                                                <div class="line"></div>
+                                                <div class="number">3</div>
+                                                <div class="text">
+                                                    <div class="middle">
+                                                        <span class="bolder">Разработаем прототип</span> продающего сайта, который сделает покупки легкими и приятными.
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="tab" href="#p4">
+                                                <div class="line"></div>
+                                                <div class="number">4</div>
+                                                <div class="text">
+                                                    <div class="middle">
+                                                        <span class="bolder">Создадим дизайн,</span> который по-настоящему понравится Вашим клиентам
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="tab" href="#p5">
+                                                <div class="line"></div>
+                                                <div class="number">5</div>
+                                                <div class="text to-left">
+                                                    <div class="middle">
+                                                        <span class="bolder">Адаптивно сверстаем</span> Ваш сайт так, чтобы он корректно открывался на смартфонах, планшетах, ноутбуках и ПК.
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="tab" href="#p6">
+                                                <div class="line"></div>
+                                                <div class="number">6</div>
+                                                <div class="text to-left">
+                                                    <div class="middle">
+                                                        <span class="bolder">Настроим рекламу</span> в Google, Яндекс, YouTube и социальных сетях, направим стабильный поток клиентов на Ваш сайт.
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a data-toggle="tab" href="#p7">
+                                                <div class="line"></div>
+                                                <div class="number">7</div>
+                                                <div class="text to-left">
+                                                    <div class="middle">
+                                                        <span class="bolder">Сократим затраты</span> на рекламу и увеличим число заявок с помощью А/В тестирования разных продающих элементов сайта.
+                                                    </div>
+                                                </div>
+                                            </a>
+                                        </li>
+                                    </ul>
+
+                                    <div class="tab-content">
+                                        <div id="p1" class="tab-pane fade in active">
+                                            <span class="bolder">Тщательно изучим</span> и проанализируем ваших конкурентов от А до Я и сделаем всё необходимое, чтобы опередить их
+                                        </div>
+                                        <div id="p2" class="tab-pane fade">
+                                            <span class="bolder">Убедительно напишем</span> продающие тексты и письма, которые располагают клиентов покупать именно у Вас.
+                                        </div>
+                                        <div id="p3" class="tab-pane fade">
+                                            <span class="bolder">Разработаем прототип</span> продающего сайта, который сделает покупки легкими и приятными.
+                                        </div>
+                                        <div id="p4" class="tab-pane fade">
+                                            <span class="bolder">Создадим дизайн,</span> который по-настоящему понравится Вашим клиентам
+                                        </div>
+                                        <div id="p5" class="tab-pane fade">
+                                            <span class="bolder">Адаптивно сверстаем</span> Ваш сайт так, чтобы он корректно открывался на смартфонах, планшетах, ноутбуках и ПК.
+                                        </div>
+                                        <div id="p6" class="tab-pane fade">
+                                            <span class="bolder">Настроим рекламу</span> в Google, Яндекс, YouTube и социальных сетях, направим стабильный поток клиентов на Ваш сайт.
+                                        </div>
+                                        <div id="p7" class="tab-pane fade">
+                                            <span class="bolder">Сократим затраты</span> на рекламу и увеличим число заявок с помощью А/В тестирования разных продающих элементов сайта.
+                                        </div>
+                                    </div>                                    
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section  id="sec7" class="vertical-scrolling team adapt-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 hidden-sm">
+                                <div class="line-left"></div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="title title-line text-left">
+                                    Команда
+                                </div>
+                                <div class="info-container">
+                                    <div class="photo-container">
+                                        <div class="team-slider">
+                                            <img src="gallery/1.jpg">
+                                            <img src="gallery/2.jpg">
+                                            <img src="gallery/3.jpg">
+                                            <img src="gallery/4.jpg">
+                                            <img src="gallery/5.jpg">
+                                            <img src="gallery/6.jpg">
+                                        </div>
+                                            <!--
+                                            <img src="img/team/team-1-prev.jpg">
+                                            <img src="img/team/team-2-prev.jpg">
+                                            <img src="img/team/team-6-prev.jpg">
+                                            <img src="img/team/team-3-prev.jpg">
+                                            <img src="img/team/team-5-prev.jpg">
+                                            <img class="hidden-xs" src="img/team/team-4-prev.jpg">
+                                        -->
+                                    </div>
+                                    <div class="clearfix"></div>
+                                        <!--
+                                        <div class="row">
+                                            <div class="col-sm-3">
+                                                <div class="photo">1</div>
+                                            </div>    
+                                            <div class="col-sm-9">
+                                                <div class="row">
+                                                    <div class="col-sm-4">
+                                                        <div class="photo">2</div>
+                                                    </div>
+                                                    <div class="col-sm-8">
+                                                        <div class="photo">3</div>
+                                                    </div>
+                                                </div>
+                                                <div class="row">
+
+                                                    <div class="col-sm-8">
+                                                        <div class="photo">4</div>
+                                                    </div>
+                                                    <div class="col-sm-4">
+                                                        <div class="photo">5</div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div> 
+                                    -->
+                                    <div class="text-left hidden">
+                                        <br>
+                                        <a href="#" class="button-more">
+                                            Посмотреть еще <img src="img/icons/down.png">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section  id="sec8" class="vertical-scrolling advant adapt-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 hidden-sm">
+                                <div class="line-left"></div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="title title-line text-left">
+                                    Преимущества
+                                </div>
+                                <div class="info-container">
+                                    <div class="advant-item">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <img src="img/icons/cog.png">
+                                                </td>
+                                                <td>
+                                                    <div class="description">
+                                                        <span class="bolder">Проработка концепции</span><br>    
+                                                        Обязательная детальная проработка концепции будущего сайта с подготовкой прототипа. Ведь правильно составленный прототип будущей посадочной страницы - это 89% успеха.
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="advant-item">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <img src="img/icons/lamp.png">
+                                                </td>
+                                                <td>
+                                                    <div class="description">
+                                                        <span class="bolder">Уникальный дизайн сайта</span><br>
+                                                        Наша команда дизайнеров и профессиональных разработчиков пользовательских интерфейсов разрабатывает уникальную длинную страницы. При этом учитываются все ваши пожелания, опыт предыдущих разработок и вашего бизнес-предложения.
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                    <div class="advant-item">
+                                        <table>
+                                            <tr>
+                                                <td>
+                                                    <img src="img/icons/pen.png">
+                                                </td>
+                                                <td>
+                                                    <div class="description">
+                                                        <span class="bolder">Написание текстов и зацепок</span> <br> 
+                                                        При разработке Уникального сайта наш специалист напишит продающие тексты и подготовит фразы-зацепки. Ваш потенциальный клиент не закроет сайт, не оставив свои данные.   
+                                                    </div>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section id="sec9" class="vertical-scrolling bussines adapt-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 hidden-sm">
+                                <div class="line-left"></div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="title title-line text-left">
+                                    Решения для бизнеса
+                                </div>
+                                <div class="info-container">
+                                    <div class="bussines-container">
+                                        <div class="bussines-item">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <div class="number">1</div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="description">
+                                                            <span class="bolder">Landing page</span>    
+                                                            
+                                                            <br>всё по делу и на одной странице
+                                                            <br>С обратной связью
+                                                            <br>Отличное старотовое решение
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div class="bussines-item">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <div class="number">2</div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="description">
+                                                            <span class="bolder">Сайт-визитка</span>
+                                                            <br>Программа минимум<br>
+                                                            Расскажите интернету о вашей компании уже сегодня 
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                        <div class="bussines-item">
+                                            <table>
+                                                <tr>
+                                                    <td>
+                                                        <div class="number">3</div>
+                                                    </td>
+                                                    <td>
+                                                        <div class="description">
+                                                            <span class="bolder">Интернет-магазин</span>  
+                                                            <br>Абсолютный MUST HAVE
+                                                            для online продаж   
+                                                        </div>
+                                                    </td>
+                                                </tr>
+                                            </table>
+                                        </div>
+                                    </div>
+                                    <div class="button-container">
+                                        <br>
+                                        <a class="button" href="#mail" data-toggle="modal">Заказать</a>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div> 
+                </section>
+                <section id="sec10" class="vertical-scrolling projects adapt-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 hidden-sm">
+                                <div class="line-left"></div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="title title-line text-left">
+                                    Наши работы
+                                </div>
+                                <div class="info-container slider-works">
+                                    <div class="porject-item">
+                                        <table>
+                                            <tr>
+                                                <!--td>
+                                                    <div class="name">Nikisova.by</div>
+                                                </td-->
+                                                <td>
+                                                    <a data-fancybox="gallery" href="projects/buketik.jpg">
+                                                        <img src="projects/small/buketik-small.jpg">
+                                                    </a>
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </div>      
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/burger.jpg">
+                                            <img src="projects/small/burger-small.jpg">
+                                        </a>                                        
+                                    </div>   
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/burn.jpg">
+                                            <img src="projects/small/burn-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/car.jpg">
+                                            <img src="projects/small/car-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/dezl.jpg">
+                                            <img src="projects/small/dezl-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/e30.jpg">
+                                            <img src="projects/small/e30-samll.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/enjoy.jpg">
+                                            <img src="projects/small/enjoy-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/germano.jpg">
+                                            <img src="projects/small/germano-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/iphone.jpg">
+                                            <img src="projects/small/iphone-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/jack.jpg">
+                                            <img src="projects/small/jack-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/latenight.jpg">
+                                            <img src="projects/small/latenight-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/massage.jpg">
+                                            <img src="projects/small/massage-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/miss.jpg">
+                                            <img src="projects/small/miss-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/ortestudio_by.jpg">
+                                            <img src="projects/small/ortestudio_by-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/relax.jpg">
+                                            <img src="projects/small/relax-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/sova.jpg">
+                                            <img src="projects/small/sova-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/stands.jpg">
+                                            <img src="projects/small/stands-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/super-fashion.jpg">
+                                            <img src="projects/small/super-fashion-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/trouble-shooter.jpg">
+                                            <img src="projects/small/trouble-shooter-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/waikiki.jpg">
+                                            <img src="projects/small/waikiki-small.jpg">
+                                        </a>                                        
+                                    </div> 
+                                    <div class="porject-item">
+                                        <a data-fancybox="gallery" href="projects/windows.jpg">
+                                            <img src="projects/small/windows-small.jpg">
+                                        </a>                                        
+                                    </div>
+
+                                </div>                  
+                            </div>
+                        </div>
+                    </div> 
+                </section>
+                <section  id="sec11" class="vertical-scrolling work adapt-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 hidden-sm">
+                                <div class="line-left"></div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="title title-line text-left">
+                                    Как мы работаем
+                                </div>
+                                <div class="info-container">
+                                    <div class="work-item">
+                                        <div class="name">
+                                            Техническое Задание <img src="img/icons/right.png">
+                                        </div>
+                                        <div class="description">
+                                            Всё в соответствии с вашим видением.
+                                        </div>
+                                    </div> 
+                                    <div class="work-item">                      
+                                        <div class="name">
+                                            Договор <img src="img/icons/right.png">
+                                        </div>
+                                        <div class="description">
+                                            Всё официально
+                                        </div>
+                                    </div>
+                                    <div class="work-item">
+                                        <div class="name">
+                                            Разработка <img src="img/icons/right.png">
+                                        </div>
+                                        <div class="description">
+                                            Всё делаем с нуля, чтобы вы могли сосредоточиться на развитии бизнеса
+                                        </div>
+                                    </div>
+                                    <div class="work-item">
+                                        <div class="name">
+                                            Готовый продукт 
+                                        </div>
+                                        <div class="description">
+                                            Всё в рабочем виде, начинайте считать прибыль
+                                        </div>
+                                    </div>
+                                    <div class="button-container scroll">
+                                        <a class="button" href="#sec12">Напишите нам</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div> 
+                </section>
+
+                <section id="sec12" class="vertical-scrolling contacts adapt-bg">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-2 hidden-sm">
+                                <div class="line-left"></div>
+                            </div>
+                            <div class="col-md-10">
+                                <div class="row">
+                                    <div class="col-sm-6">
+                                        <div class="text-left">
+                                            <div class="title title-line text-left">
+                                                Контакты
+                                            </div>
+                                            <div class="info-container">
+                                                <p>
+                                                    <br>
+                                                    Адрес<br>
+                                                    Беларусь, Минск<br>
+                                                    Пер. Калинина 7
+                                                </p>
+                                                <p>
+                                                    <br>
+                                                    Телефон<br>
+                                                    +375 25 939 77 62<br>
+                                                </p>
+                                            </div>  
+                                        </div>
+                                        <div class="text-center visible-xs">
+                                            <br>
+                                            <a class="button" href="#mail" data-toggle="modal">Напишите нам</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-sm-6 hidden-xs">
+                                        <form action method="post" id="feedback">                                     
+                                            <input type="text" required name="name" value="" placeholder="Ваше имя">
+                                            <input type="email" name="email" value="" placeholder="Ваш E-mail">
+                                            <input type="phone" required name="phone" value="" placeholder="Ваш телефон">
+                                            <input type="submit" name="submit" value="Отправить"/>
+                                            <div class="success"></div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                    </div> 
+                </section>
+            </div>
+        </div>
+
+
+        <div id="mail" class="modal fade">
+            <div class="modal-dialog">
+                <form action method="post" id="serviceForm" class="form-center">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                    <div class="form-title">
+                        Напишите нам
+                    </div>
+                    <input type="text" required name="name" placeholder="Ваше имя">
+                    <input type="text" required name="phone" placeholder="Телефон">
+                    <input type="email" name="email" placeholder="E-mail">
+                    <input type="submit" name="submit" value="Отправить"/>
+                    <div class="success"></div>
+                </form>  
+            </div> 
+        </div>
+        <!-- js files -->
+        <script src="js/jquery-2.2.0.js"></script>
+        <script src="https://use.fontawesome.com/d5dbeabe8b.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox.min.js"></script>
+        <script src="js/jquery.fullPage.min.js"></script>
+        <script type="text/javascript" src="js/slick.min.js"></script>
+        <script src="js/main.js"></script>
+        <script>
+        $(document).ready(function () {
+            $("form").submit(function () {// Получение ID формы
+                var formID = $(this).attr('id');
+                // Добавление решётки к имени ID
+                var formNm = $('#' + formID);
+                $.ajax({
+                    type: "POST",
+                    url: 'send.php',
+                    data: formNm.serialize(),
+                    success: function (data) {
+                    // Вывод текста результата отправки
+                    $(formNm).html(data);
+                },
+                error: function (jqXHR, text, error) {
+                        // Вывод текста ошибки отправки
+                        $(formNm).html(error);
+                    }
+                });
+                return false;
+            });
+        });
+    </script>
+
+</body>
+</html>
